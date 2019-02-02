@@ -1,4 +1,4 @@
-default: example/SAM.class
+default: example/WithoutSAM.class
 
 %.class: %.scala
 	scalac -Xprint:all $*.scala
