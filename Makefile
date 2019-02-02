@@ -1,7 +1,7 @@
-default: example/WithoutSAM.class example/WithSAM.class
+default: WithoutSAM.class WithSAM.class
 
 %.class: %.scala
 	scalac -Xprint:all $*.scala
 
 clean:
-	rm -f example/*.class
+	rm -f *.class

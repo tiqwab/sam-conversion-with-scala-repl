@@ -1,5 +1,3 @@
-package example
-
 object WithSAM {
 
   def main(args: Array[String]): Unit = {
